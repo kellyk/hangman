@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; background: #666; }
+button { background: #D43346; color:white; padding: 8px 12px; font-size:20px;} 
+img { max-width: 100%; }
+h1 { text-align: center; font: 3em "lobster", Georgia, serif; color: #D43346; }
+.pageWrap { width: 600px; margin: 0px auto; background: white; padding:20px;}
+
+.guessArea {width: 250px; float:left;}
+.used { width: 250px; float: left; }
+.grayButton { margin-top: 30px; }
+.clear { width: 100%; clear:both; display: block; }
+.gallows { height: 500px; width: 500px; margin:0 auto;}
+
+div[data-content="answer"] {
+	display: none;
+}

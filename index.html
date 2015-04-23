@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Hangman</title>
+		<script type="text/javascript" src="//use.typekit.net/kel7zof.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		 <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div class="pageWrap">
+			<h1>Hangman</h1>
+			<div class="gallows">
+				<img src="images/stand.png" /> 
+			</div>
+			<div class="guessArea">
+				<div id="answer"></div> 
+				<br />Guess a letter: <br />
+				<form data-action="guess">
+					<input type="text" data-content="guess" />
+					<input type="submit" value="Go" />
+				</form>
+
+				<div data-content="warning"></div>
+			</div>
+			<div class="used" data-content="used"></div>
+			<div class="clear"></div>
+			<button class="grayButton" data-action="reveal">Reveal</button>
+			<button class="grayButton" data-action="reload">New Game</button>
+			<div data-content="answer"></div>
+		</div>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
